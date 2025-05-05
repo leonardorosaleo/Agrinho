@@ -1,53 +1,38 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v1.0 | 20080212 */
+# Projeto: Conexão Campo-Cidade: Cultivando Laços e Saberes
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
+## Objetivo:
+Promover a troca de experiências, conhecimentos e cultura entre comunidades rurais e urbanas, fortalecendo laços e valorizando as diferenças e semelhanças.
 
-/* remember to define focus styles! */
-:focus {
-    outline: 0;
-}
+## Etapas do Projeto:
 
-/* remember to highlight inserts somehow! */
-ins {
-    text-decoration: none;
-}
-del {
-    text-decoration: line-through;
-}
+1. Levantamento de Comunidades
+   - Identificar comunidades rurais e urbanas interessadas em participar.
+   - Criar um cadastro de contatos e interesses.
 
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+2. Eventos de Troca de Saberes
+   - Organizar feiras, oficinas e encontros presenciais ou virtuais.
+   - Temas sugeridos: técnicas agrícolas, culinária, artesanato, música, tradições culturais.
+
+3. Programas de Intercâmbio
+   - Planejar visitas entre as comunidades.
+   - Estabelecer cronogramas e atividades durante as visitas.
+
+4. Produção de Conteúdo
+   - Criar vídeos, blogs e podcasts com histórias e experiências.
+   - Incentivar a participação das comunidades na produção.
+
+5. Projetos Educativos
+   - Envolver escolas locais em atividades que abordem a importância da conexão campo-cidade.
+   - Desenvolver materiais didáticos e oficinas.
+
+6. Parcerias
+   - Buscar apoio de ONGs, órgãos públicos, universidades e empresas.
+   - Firmar convênios e patrocínios para financiamento e suporte técnico.
+
+## Resultados Esperados:
+- Fortalecimento do senso de comunidade.
+- Valorização das culturas rurais e urbanas.
+- Criação de uma rede de troca de conhecimentos e experiências.
+- Incentivo ao desenvolvimento sustentável e à valorização do meio rural.
+
+Se desejar, posso ajudar a criar materiais específicos, cronogramas ou estratégias de divulgação. É só pedir!
