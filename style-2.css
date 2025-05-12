@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@media screen and (min-width:768px) and (max-width:1920px) {
+
+:root{
+    --cor-de-fundo:  #87f0fc9f;
+    --cor-de-texto: #000000;
+    --cor-botão: #71b895;
+    --cor-secundária: rgb(152, 213, 236);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+    font-family: 'Playfair';
+}
+
+header {
+    background-color: var(--cor-de-fundo);
+    padding: auto;
+    margin: 0;
+    height: 25%;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    gap: 7px;
+    flex-direction: row;
+}
+
+.container img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.texto {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.container.reverse{
+    flex-direction: row-reverse;
+}
+
+
+button{
+    width: 187px;
+    height: 40px;
+    padding: 10px 20px;
+    margin-left: 450px;
+    display: inline-block;
+    background-color: var(--cor-botão);
+}
+
+button:hover {
+    background-color: var(--cor-secundária);
+   }
+}
