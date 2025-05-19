@@ -1,0 +1,27 @@
+
+
+/* VARIAVEIS */ 
+ :root{
+      --primary-color: #047380;
+      --secundary-color: #3ca6a6;
+      --texte-color:#024959;
+     --button-hover: #012e40;
+     --bsckground-color: #00000000
+    --font-body: ''chocolate classical sans", serif;
+    --font-titulo: "Rakkas", Serif;
+)
+
+/* RESET */
+*{
+      margin: 0;
+      padding; 0;
+      box-sizing: border-box;
+      font-family: var(--font-body);
+ }
+
+ /*CORPO DA PAGINA*/
+ body 
+       background-color: var(--background-color);
+       color:var(--text-color);
+       line-height: 1.6;
+
