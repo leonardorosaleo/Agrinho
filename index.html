@@ -1,55 +1,87 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <title>AgrO TecH</title>
+    <title>Academia Agrinho</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imagens/logo.png">
 </head>
 <body>
     <header>
-        <nav class="navigation">
-            <a href="#" class="logo">A<span>gr</span>O T<span>ec</span>H</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="agro.html" target="_blank">Curiosidades</a></li>
-                <li class="nav-item"><a href="agua.html" target="_blank">Serviços</a></li>
-                <li class="nav-item"><a href="contato.html" target="_blank">Contato</a></li>
-                <i class='bx bx-search'></i>
-           </ul>
+        <div class="container">
+            <h1>Academia Agrinho</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="input-buscar">
-            <input type="text" name="" id="" placeholder="Faça uma busca">
-        </div>
-        <div class="btn-fechar">
-            <i class="bi bi-x-circle"></i>
-        </div>
-    </div>
-
-    <script src="2024.js"></script>
-
-            <div class="menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
     </header>
-    <main>
-        <section class="home">
-            <div class="home-text">
-                <h4 class="text-h4">Bem vindo a AgrO TecH</h4>
-                <h1 class="text-h1">Agrotecnologia inovação para um campo sustentavel</h1>
-                <p>Aqui você encontra os melhores produtos de agro tecnologia</p>
-                <a href="agro.html" target="_blank"><button class="button" type="button" target="_blank">Curiosidades</button></a>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Conectando o Campo à Cidade Através do Conhecimento</h2>
+            <p>Aprenda sobre agricultura, empreendedorismo e muito mais com nossos cursos online.</p>
+            <a href="#cursos" class="btn">Explore os Cursos</a>
+        </div>
+    </section>
+
+    <section id="cursos" class="courses-section">
+        <div class="container">
+            <h2>Nossos Cursos</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Agricultura Sustentável</h3>
+                    <p>Aprenda as melhores práticas de agricultura sustentável e como implementá-las.</p>
+                    <a href="dashboard/dashsustentavel.html" class="btn">Ver Curso</a>
+                </div>
+                <div class="course-item">
+                    <h3>Empreendedorismo Rural</h3>
+                    <p>Descubra como iniciar e gerenciar um negócio agrícola de sucesso e sustentável.</p>
+                    <a href="dashboard/dashrural.html" class="btn">Ver Curso</a>
+                </div>
+                <div class="course-item">
+                    <h3>Inovações em Tecnologias Agrícolas</h3>
+                    <p>Fique por dentro das últimas inovações tecnológicas na agricultura.</p>
+                    <a href="dashboard/dashtecnologias.html" class="btn">Ver Curso</a>
+                </div>
             </div>
-            <div class="home-img">
-                <img src="img/dronehome.jpg" alt="drone">
-            </div>
-        </section>
-    </main>
-    <script src="2024.js"></script>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <h2>Sobre a Academia Agrinho</h2>
+            <p>A Academia Agrinho é uma plataforma de aprendizado dedicada a conectar o campo à cidade através do conhecimento. Oferecemos cursos básicos de qualidade sobre agricultura, empreendedorismo e tecnologias agrícolas, ajudando você a colher as oportunidades do campo na cidade.</p>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Academia Agrinho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
