@@ -7,7 +7,7 @@
 
 /* Fundo escuro e texto branco */
 body {
-  background: black;
+  background: rgb(201, 13, 13);
   color: white;
   font-family: Arial, sans-serif;
   font-size: 18px;
@@ -25,7 +25,7 @@ header {
 }
 
 .header-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(223, 14, 14, 0.6);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ p {
   width: 500px;
   max-width: 100%;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(194, 9, 9, 0.1);
 }
 
 .texto {
@@ -114,7 +114,7 @@ footer {
   padding: 3rem 1rem;
   background-color: #f9f6f0;
   text-align: center;
-  color: #333; /* Garante que o texto dos parágrafos tenha bom contraste */
+  color: #aa2020; /* Garante que o texto dos parágrafos tenha bom contraste */
 }
 
 .celebracao h2 {
@@ -122,7 +122,7 @@ footer {
   color: #4CAF50; /* Um verde vibrante para destaque */
   font-weight: bold; /* Deixa o texto em negrito */
   margin-bottom: 1.5rem; /* Aumenta o espaçamento abaixo do título */
-  text-shadow: 1px 1px 2px rgba(201, 21, 21, 0.2); /* Adiciona uma leve sombra para mais destaque */
+  text-shadow: 1px 1px 2px rgba(204, 14, 14, 0.2); /* Adiciona uma leve sombra para mais destaque */
 }
 
 .celebracao p {
@@ -141,12 +141,12 @@ footer {
   background-color: #fff;
   padding: 1.5rem; /* Aumentado o padding para melhor visual */
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(153, 26, 26, 0.1);
+  box-shadow: 0 2px 6px rgba(207, 14, 14, 0.1);
 }
 
 .motivo h3 {
   margin-bottom: 0.8rem;
-  color: #555; /* Cor mais escura para os títulos dos motivos */
+  color: #b10909c2; /* Cor mais escura para os títulos dos motivos */
   font-size: 1.3rem;
 }
 
