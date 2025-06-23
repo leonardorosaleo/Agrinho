@@ -103,7 +103,7 @@ p {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #111;
+  background-color: #d1bebe;
   color: #aaa;
   font-size: 16px;
 }
@@ -141,7 +141,7 @@ footer {
   background-color: #fff;
   padding: 1.5rem; /* Aumentado o padding para melhor visual */
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(250, 28, 28, 0.1);
 }
 
 .motivo h3 {
