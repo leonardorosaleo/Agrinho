@@ -12,8 +12,8 @@ Bem-vindo ao Portal Rural, um portal dedicado a conectar o conhecimento do campo
 
 ## Redes Sociais
 
-* [Instagram](https://instagram.com/arthur_feltz)
-* [E-mail](mailto:arthurrangel563@gmail.com)
+* [Instagram](https://instagram.com/leozardo_de_viera
+* [E-mail](mailto:leonardorosa3660@gmail.com)
 
 ## Licença
 
