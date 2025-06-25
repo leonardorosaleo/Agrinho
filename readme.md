@@ -1,4 +1,3 @@
-# Agrinho
 # Portal Rural
 
 ## Descrição
